@@ -1,3 +1,15 @@
+<div align="center">
+
+<img src="assets/product-management-banner.svg" width="100%" alt="Product Management Portfolio — Nithin Ravindran" />
+
+**Product Owner · Product Business Analyst · Technical Product Professional**
+
+[Main Portfolio](https://github.com/NithinRavindran/Portfolio) · [Corporate Travel Case Study](https://github.com/NithinRavindran/Corporate-Travel-Platform) · [LinkedIn](https://www.linkedin.com/in/nithin-ravindran-422895103/)
+
+</div>
+
+---
+
 # Product Management Portfolio
 
 **Nithin Ravindran | Product Manager · Technical Product Owner · Product Business Analyst**
@@ -62,5 +74,7 @@ This repository brings together product thinking across discovery, strategy, req
 ## Connect
 
 - GitHub: [@NithinRavindran](https://github.com/NithinRavindran)
+- LinkedIn: [Nithin Ravindran](https://www.linkedin.com/in/nithin-ravindran-422895103/)
+- Main portfolio: [Portfolio repository](https://github.com/NithinRavindran/Portfolio)
 
 This portfolio is a living collection of product artefacts and domain case studies. Feedback and thoughtful product discussions are welcome.
