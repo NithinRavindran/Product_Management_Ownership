@@ -1,40 +1,75 @@
+[← Back to Product Management Portfolio](../README.md)
+
+<div align="center">
+
+![Case studies](https://img.shields.io/badge/SECTION-EXPERIENCE%20BASED%20CASE%20STUDIES-0f766e?style=for-the-badge)
+![Domains](https://img.shields.io/badge/DOMAINS-4-2563eb?style=for-the-badge)
+![Disclosure](https://img.shields.io/badge/EXAMPLES-SANITISED-475569?style=for-the-badge)
+
+</div>
+
 # Product Case Studies
 
-This section is the experience-focused part of the portfolio. It covers four product environments and explains their users, business context, workflows, requirements, integrations, product measures and delivery considerations.
+A closer look at four technology product environments, their users, business workflows, technical dependencies and product outcomes.
 
-**Important distinction:** These are sanitised portfolio narratives, not copies of employer documentation. Product workflows and requirements may be reconstructed from domain experience for demonstration. Reported metrics are identified as project/team-level outcomes; illustrative KPI definitions are not claims of measured performance.
+**How to read these case studies:** Each narrative is experience-based at the domain level, with reconstructed workflows and requirements used to explain product thinking. Reported metrics are identified as project/team-level outcomes rather than individual-only attribution.
+
+---
 
 ## Professional product domains
 
-### 1. [Corporate Travel Management Platform](corporate-travel-platform.md)
-
-Employee and arranger travel journeys, policy configuration, approval hierarchies, booking and trip servicing, supplier integrations and spend visibility.
-
-### 2. [B2B & B2C Travel Technology Platform](b2b-b2c-travel-tech-platform.md)
-
-Flights, hotels, transfers, activities and packages across direct customer and agency / partner channels, including booking lifecycle and supplier connectivity.
-
-### 3. [Healthcare — HIMS, EHR & Laboratory Integration](healthcare-hims-ehr-laboratory-integration.md)
-
-Hospital workflows spanning patient scheduling, clinical records, pharmacy, LIS, inventory, diagnostic devices and laboratory result exchange.
-
-### 4. [Vulnerability & Incident Management](vulnerability-incident-management.md)
-
-Scanner orchestration, vulnerability ingestion, asset context, SIEM alert correlation, incident lifecycle, remediation tracking and operational analytics.
+<table>
+  <tr>
+    <td width="50%">
+      <h3>✈️ 01 · Corporate Travel Management</h3>
+      <p>Policy-aware employee travel requests, approval hierarchies, itinerary servicing, supplier connectivity and spend visibility.</p>
+      <strong>Explore:</strong> [Product case study →](corporate-travel-platform.md)
+    </td>
+    <td width="50%">
+      <h3>🌍 02 · B2B &amp; B2C Travel Technology</h3>
+      <p>Flights, hotels, transfers, activities and packages across direct and partner booking channels.</p>
+      <strong>Explore:</strong> [Product case study →](b2b-b2c-travel-tech-platform.md)
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🏥 03 · Healthcare Systems</h3>
+      <p>HIMS, EHR, patient scheduling, pharmacy, LIS, inventory and diagnostic-device integration.</p>
+      <strong>Explore:</strong> [Product case study →](healthcare-hims-ehr-laboratory-integration.md)
+    </td>
+    <td width="50%">
+      <h3>🛡️ 04 · Vulnerability &amp; Incident Management</h3>
+      <p>Scanner orchestration, vulnerability findings, SIEM correlation, incident lifecycle and remediation analytics.</p>
+      <strong>Explore:</strong> [Product case study →](vulnerability-incident-management.md)
+    </td>
+  </tr>
+</table>
 
 ## Supporting portfolio examples
 
-- [Product Management by Domain](product-management-by-domain.md) — cross-domain responsibility and workflow mapping.
-- [Healthcare Appointments](healthcare-appointments.md) — a focused example of a healthcare workflow.
-- [AI Travel Assistant](ai-travel-assistant.md) — an **illustrative concept**, not a claim of a production AI launch.
-- [Travel Booking Platform](travel-booking-platform.md) — navigation to the travel product contexts.
+| Artefact | Classification | Purpose |
+|---|---|---|
+| [Product Management by Domain](product-management-by-domain.md) | Cross-domain mapping | Connects product responsibilities to the four domain contexts |
+| [Healthcare Appointments](healthcare-appointments.md) | Reconstructed workflow | Illustrates appointment scheduling and healthcare workflow thinking |
+| [AI Travel Assistant](ai-travel-assistant.md) | Illustrative concept | Demonstrates an AI-enabled travel product concept; not a production launch claim |
+| [Travel Booking Platform](travel-booking-platform.md) | Supporting example | Provides navigation across the travel product context |
 
-## Suggested reading path
+## Suggested review path
 
-1. Understand the product and its users.
-2. Review the end-to-end workflow and business rules.
-3. Examine representative requirements and acceptance criteria.
-4. Review technical dependencies and exception handling.
-5. Consider prioritisation, delivery risks and success measures.
+1. **Understand the domain** — users, business model and product context.
+2. **Follow the workflow** — happy paths, states, business rules and exceptions.
+3. **Review requirements** — user stories, acceptance criteria and dependencies.
+4. **Assess technical context** — integrations, data ownership, reliability and security.
+5. **Consider outcomes** — candidate KPIs, reported project context, risks and trade-offs.
 
-Where a document contains example requirements, hypothetical scoring or candidate KPIs, treat them as reconstructed portfolio material unless it explicitly identifies a verified project outcome.
+## Evidence and disclosure standard
+
+- Professional experience is described at a high level and without confidential details.
+- Workflow diagrams and requirements are reconstructed portfolio examples, not original employer documents.
+- Candidate KPIs are proposed definitions, not claims of measured performance.
+- Project/team metrics are contextual figures and should be retained publicly only where disclosure is authorised.
+- AI or learning concepts are clearly distinguished from shipped production capabilities.
+
+---
+
+[← Back to Product Management Portfolio](../README.md) · [Technical Product Management Lab](../07-technical-product-management/README.md) · [AI Product Management Learning Lab](../08-ai-product-management/README.md)
