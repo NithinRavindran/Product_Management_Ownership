@@ -21,7 +21,7 @@ This repository demonstrates my product-management approach across four technolo
 3. **Healthcare Information System — HIMS, EHR & Laboratory Device Interfacing**
 4. **Vulnerability & Incident Management System**
 
-It combines the reusable practices of Product Management with domain-specific product context. The goal is to show how product strategy, discovery, requirements, prioritisation, technical collaboration, delivery and analytics are applied to different users, workflows, integrations and business outcomes.
+It combines reusable Product Management practices with domain-specific product context. The goal is to show how product strategy, discovery, requirements, prioritisation, technical collaboration, delivery and analytics are applied to different users, workflows, integrations and business outcomes.
 
 > **Portfolio and confidentiality note:** Product pages are portfolio documentation and may include representative workflows, hypotheses and illustrative examples. They are not a disclosure of confidential employer information or customer data. Any professional achievements, production metrics or implementation claims should be included only when verified and approved for public disclosure.
 
@@ -61,6 +61,8 @@ The repository is organised around the end-to-end product lifecycle. Each capabi
 | **Specify** | Policy rules, approval flows, trip and booking states | Product catalogue, pricing, supplier contracts and booking lifecycle | HIMS / EHR / LIS workflows, device messages and result states | Scanner ingestion, correlation logic, incident states and SLA rules |
 | **Deliver** | Traveller experience, policy engine, supplier integrations and servicing | Multi-product search, channel workflows and package orchestration | Clinical workflows, device interfaces and validation | Scanner orchestration, incident workflows and analytics |
 | **Measure** | Booking success, policy compliance, spend and traveller experience | Conversion, supplier quality, package completion and repeat usage | Turnaround time, interface success, unmatched results and workflow quality | Time to triage, MTTR, SLA compliance and actionable alert conversion |
+
+See the [cross-domain Product Management responsibility matrix](10-case-studies/product-management-by-domain.md) for a more detailed mapping.
 
 ## Core Product Manager responsibilities
 
