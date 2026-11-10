@@ -1,29 +1,52 @@
-# Product Domain Case Studies
+# Product Management Across Four Technology Domains
 
-This portfolio is organised around four product domains. Each case study explains the user and operational context, key workflows, product scope, requirements, integrations, success measures, risks and roadmap considerations.
+This section shows how Product Management practices are applied to four distinct product environments. Each page is structured around product context, users, workflows, requirements, integrations, prioritisation, success measures, risks and product decisions.
 
-The examples are intentionally written at a product level. Replace generic assumptions with details you can substantiate from your own work. Do not include customer-identifiable information, proprietary implementation details, production screenshots, credentials or confidential performance data.
+> The documents are portfolio case studies. They use generic or illustrative examples where details are not verified or cannot be disclosed. They do not represent confidential employer documentation, customer data or unapproved production results.
 
-## Core product domains
+## 1. Corporate Travel Management Platform
 
-1. [Vulnerability & Incident Management Product](vulnerability-incident-management.md)  
-   Scanner orchestration, vulnerability findings, asset context, SIEM alert correlation, incident lifecycle, remediation and security analytics.
+[Open case study](corporate-travel-platform.md)
 
-2. [Corporate Travel Platform](corporate-travel-platform.md)  
-   Corporate traveller and arranger journeys, travel policies, approvals, booking workflows, trip management and supplier integration.
+Corporate traveller and arranger journeys, travel policy, approvals, booking lifecycle, supplier integrations, trip management, spend and operational reporting.
 
-3. [B2B & B2C Travel Technology Platform](b2b-b2c-travel-tech-platform.md)  
-   Multi-product travel commerce covering airlines, hotels, activities, transfers and dynamic packaging for partners, agents and end customers.
+## 2. B2B & B2C Travel Technology Platform
 
-4. [Healthcare System: HIMS, EHR & Laboratory Device Interfacing](healthcare-hims-ehr-laboratory-integration.md)  
-   Hospital information workflows, electronic health records, laboratory orders and results, and diagnostic analyser connectivity.
+[Open case study](b2b-b2c-travel-tech-platform.md)
 
-## Related portfolio exercises
+Multi-product travel commerce across airlines, hotels, activities, transfers and dynamic packages, serving agency / partner and direct customer channels.
 
-- [AI-powered travel assistant](ai-travel-assistant.md) — supporting AI product concept that can complement travel journeys.
-- [Travel booking workflow](travel-booking-platform.md) — illustrative booking lifecycle and exception-handling example.
-- [Healthcare appointment workflow](healthcare-appointments.md) — related HIMS workflow example.
+## 3. Healthcare Information System — HIMS, EHR & Laboratory Device Interfacing
 
-## Case study structure
+[Open case study](healthcare-hims-ehr-laboratory-integration.md)
 
-Problem and context → users and stakeholders → workflow → discovery evidence → opportunity → MVP and requirements → integrations and dependencies → prioritisation → delivery and rollout → metrics and guardrails → risks and learnings.
+Hospital operations, patient and encounter workflows, clinical records, LIS, laboratory order and result management, and diagnostic-device connectivity.
+
+## 4. Vulnerability & Incident Management System
+
+[Open case study](vulnerability-incident-management.md)
+
+Scanner orchestration, vulnerability findings, asset context, SIEM alert correlation, incident lifecycle, remediation, SLA tracking and security analytics.
+
+## Cross-domain Product Management matrix
+
+[View product management responsibilities by domain](product-management-by-domain.md)
+
+This matrix maps discovery, strategy, requirements, prioritisation, delivery, technical collaboration and analytics to each of the four product environments.
+
+## Supporting examples
+
+- [AI-powered travel assistant](ai-travel-assistant.md) — an illustrative AI feature concept related to travel experiences.
+- [Travel booking platform overview](travel-booking-platform.md) — navigation to the corporate and B2B / B2C travel product contexts.
+- [Healthcare appointment workflow](healthcare-appointments.md) — a focused supporting workflow within the broader healthcare system.
+
+## How to read these case studies
+
+For each product, look at:
+1. The user problems and business outcomes.
+2. The stakeholders and end-to-end workflows.
+3. The product scope, rules and state transitions.
+4. The integrations and technical dependencies.
+5. The requirements and acceptance criteria.
+6. The prioritisation and roadmap trade-offs.
+7. The metrics, risks and learning loops.
