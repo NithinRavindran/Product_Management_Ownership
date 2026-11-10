@@ -1,3 +1,7 @@
+**PRODUCT MANAGEMENT PORTFOLIO** · [Home](../README.md) · [Case studies](../10-case-studies/README.md)
+
+---
+
 # Product Strategy
 
 Product strategy connects customer needs, market context, organisational goals and investment choices. In this portfolio, the strategy toolkit is applied to four product domains: Corporate Travel Management, B2B & B2C Travel Technology, Healthcare Systems and Vulnerability & Incident Management.
