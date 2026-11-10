@@ -1,52 +1,40 @@
-# Product Management Across Four Technology Domains
+# Product Case Studies
 
-This section shows how Product Management practices are applied to four distinct product environments. Each page is structured around product context, users, workflows, requirements, integrations, prioritisation, success measures, risks and product decisions.
+This section is the experience-focused part of the portfolio. It covers four product environments and explains their users, business context, workflows, requirements, integrations, product measures and delivery considerations.
 
-> The documents are portfolio case studies. They use generic or illustrative examples where details are not verified or cannot be disclosed. They do not represent confidential employer documentation, customer data or unapproved production results.
+**Important distinction:** These are sanitised portfolio narratives, not copies of employer documentation. Product workflows and requirements may be reconstructed from domain experience for demonstration. Reported metrics are identified as project/team-level outcomes; illustrative KPI definitions are not claims of measured performance.
 
-## 1. Corporate Travel Management Platform
+## Professional product domains
 
-[Open case study](corporate-travel-platform.md)
+### 1. [Corporate Travel Management Platform](corporate-travel-platform.md)
 
-Corporate traveller and arranger journeys, travel policy, approvals, booking lifecycle, supplier integrations, trip management, spend and operational reporting.
+Employee and arranger travel journeys, policy configuration, approval hierarchies, booking and trip servicing, supplier integrations and spend visibility.
 
-## 2. B2B & B2C Travel Technology Platform
+### 2. [B2B & B2C Travel Technology Platform](b2b-b2c-travel-tech-platform.md)
 
-[Open case study](b2b-b2c-travel-tech-platform.md)
+Flights, hotels, transfers, activities and packages across direct customer and agency / partner channels, including booking lifecycle and supplier connectivity.
 
-Multi-product travel commerce across airlines, hotels, activities, transfers and dynamic packages, serving agency / partner and direct customer channels.
+### 3. [Healthcare — HIMS, EHR & Laboratory Integration](healthcare-hims-ehr-laboratory-integration.md)
 
-## 3. Healthcare Information System — HIMS, EHR & Laboratory Device Interfacing
+Hospital workflows spanning patient scheduling, clinical records, pharmacy, LIS, inventory, diagnostic devices and laboratory result exchange.
 
-[Open case study](healthcare-hims-ehr-laboratory-integration.md)
+### 4. [Vulnerability & Incident Management](vulnerability-incident-management.md)
 
-Hospital operations, patient and encounter workflows, clinical records, LIS, laboratory order and result management, and diagnostic-device connectivity.
+Scanner orchestration, vulnerability ingestion, asset context, SIEM alert correlation, incident lifecycle, remediation tracking and operational analytics.
 
-## 4. Vulnerability & Incident Management System
+## Supporting portfolio examples
 
-[Open case study](vulnerability-incident-management.md)
+- [Product Management by Domain](product-management-by-domain.md) — cross-domain responsibility and workflow mapping.
+- [Healthcare Appointments](healthcare-appointments.md) — a focused example of a healthcare workflow.
+- [AI Travel Assistant](ai-travel-assistant.md) — an **illustrative concept**, not a claim of a production AI launch.
+- [Travel Booking Platform](travel-booking-platform.md) — navigation to the travel product contexts.
 
-Scanner orchestration, vulnerability findings, asset context, SIEM alert correlation, incident lifecycle, remediation, SLA tracking and security analytics.
+## Suggested reading path
 
-## Cross-domain Product Management matrix
+1. Understand the product and its users.
+2. Review the end-to-end workflow and business rules.
+3. Examine representative requirements and acceptance criteria.
+4. Review technical dependencies and exception handling.
+5. Consider prioritisation, delivery risks and success measures.
 
-[View product management responsibilities by domain](product-management-by-domain.md)
-
-This matrix maps discovery, strategy, requirements, prioritisation, delivery, technical collaboration and analytics to each of the four product environments.
-
-## Supporting examples
-
-- [AI-powered travel assistant](ai-travel-assistant.md) — an illustrative AI feature concept related to travel experiences.
-- [Travel booking platform overview](travel-booking-platform.md) — navigation to the corporate and B2B / B2C travel product contexts.
-- [Healthcare appointment workflow](healthcare-appointments.md) — a focused supporting workflow within the broader healthcare system.
-
-## How to read these case studies
-
-For each product, look at:
-1. The user problems and business outcomes.
-2. The stakeholders and end-to-end workflows.
-3. The product scope, rules and state transitions.
-4. The integrations and technical dependencies.
-5. The requirements and acceptance criteria.
-6. The prioritisation and roadmap trade-offs.
-7. The metrics, risks and learning loops.
+Where a document contains example requirements, hypothetical scoring or candidate KPIs, treat them as reconstructed portfolio material unless it explicitly identifies a verified project outcome.
