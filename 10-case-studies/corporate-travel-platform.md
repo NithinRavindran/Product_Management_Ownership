@@ -1,136 +1,92 @@
-# Product Case Study: Corporate Travel Platform
+# Product Case Study: Corporate Travel Management Platform
 
 **Domain:** Travel technology  
-**Product type:** B2B corporate travel management platform
+**Product context:** B2B corporate travel management  
+**Portfolio classification:** Experience-based domain narrative with reconstructed workflows and requirements
 
-## 1. Product context
+## Product context
 
-A corporate travel platform supports organisations that need employees to search, request, book and manage business travel within company policies. It also gives travel arrangers, managers and travel operations teams control over approvals, traveller information, spend visibility and post-booking servicing.
+A corporate travel management platform helps organisations manage employee business travel while balancing traveller experience, company policy, approval governance, supplier availability and spend visibility.
 
-The product must balance three needs: a convenient traveller experience, policy and financial control for the organisation, and operational efficiency for the travel management team.
+The product context described here includes employee and arranger travel requests, configurable policy rules, approval hierarchies, flight and hotel booking journeys, multi-city and international itineraries, mobile trip management and operational reporting.
 
-## 2. Users and stakeholders
+## Users and business needs
 
-| User / stakeholder | Primary need |
+| User | Need |
 |---|---|
-| Employee / traveller | Find suitable travel options and manage a trip |
-| Travel arranger / executive assistant | Arrange travel for one or more employees |
-| Line manager / approver | Review requests against policy and business context |
-| Travel desk / operations agent | Handle exceptions, changes, cancellations and support |
-| Corporate travel administrator | Configure policy, entities, cost centres and permissions |
-| Finance / procurement | Review spend, supplier usage and reconciliation |
-| Supplier / travel partner | Receive valid bookings and servicing requests |
+| Employee / traveller | Search, request, book and manage business trips |
+| Travel arranger | Coordinate trips for employees and manage changes |
+| Manager / approver | Review requests against policy and business purpose |
+| Travel operations | Resolve booking, supplier and servicing exceptions |
+| Travel administrator | Configure policy, approval rules, entities and permissions |
+| Finance / procurement | Understand travel spend, compliance and supplier usage |
 
-## 3. Core product modules
+## Product problem areas
 
-### Corporate configuration
-- Company entities, departments, offices and cost centres.
-- Traveller profiles, preferences and travel documents where legally and operationally appropriate.
-- Role-based access for travellers, arrangers, approvers and administrators.
-- Configurable travel policies by employee grade, route, destination, trip type or booking category.
-- Approval hierarchy, delegation and out-of-office handling.
+- Policy rules must be clear, configurable and applied consistently.
+- Approval workflows need to reflect organisational hierarchy and delegation.
+- Travellers need to understand why an option is compliant or out of policy.
+- Booking and supplier responses must be represented accurately, especially when a transaction is pending or has an unknown outcome.
+- Changes, cancellations and disruptions require traceable operational handling.
+- Finance and administrators need reliable reporting without compromising traveller privacy.
 
-### Search and booking
-- Search flights, hotels and other supported travel services.
-- Display policy indicators and explain out-of-policy options.
-- Compare price, schedule, location, cancellation terms and other relevant attributes.
-- Capture trip purpose, project code or cost centre where required.
-- Apply negotiated corporate rates and approved supplier rules.
-- Submit for approval when configured before booking.
+## Representative end-to-end workflow
 
-### Approval and policy workflow
-1. Traveller or arranger creates a trip request.
-2. Platform evaluates selected options against configured policy.
-3. In-policy requests follow the configured approval path or auto-approval rule.
-4. Out-of-policy requests require reason capture and designated approval.
-5. Approver reviews itinerary, policy flags and relevant cost information.
-6. Approved request proceeds to booking; rejected or returned requests retain decision history.
-7. Booking confirmation and itinerary are made available to the traveller and authorised stakeholders.
+1. Employee or arranger enters trip details, traveller information and business purpose.
+2. Platform searches available travel options.
+3. Policy evaluation identifies compliant, restricted or out-of-policy options.
+4. Traveller selects an option and submits the request where approval is required.
+5. The configured approver reviews itinerary, policy status, cost and justification.
+6. The request is approved, rejected or returned for clarification.
+7. Booking proceeds and the platform records supplier confirmation or an exception state.
+8. Traveller receives itinerary information and can access trip details.
+9. Changes, cancellations and support requests are tracked through the servicing workflow.
 
-### Trip management and servicing
-- View confirmed itinerary and booking references.
-- Support cancellation, amendment and rebooking based on supplier rules.
-- Communicate disruption or schedule-change information when available.
-- Track service requests and operational ownership.
-- Preserve a record of approvals and booking changes.
+This is a representative workflow model for portfolio explanation; the exact production configuration can vary by customer and implementation.
 
-### Reporting and controls
-- Spend by entity, department, cost centre and traveller segment.
-- Policy compliance and out-of-policy booking reasons.
-- Advance-purchase behaviour and preferred supplier usage.
-- Approval turnaround time.
-- Cancellation, refund and unused-ticket reporting where data is available.
-
-## 4. Representative user journey
-
-**Employee journey:** Sign in → enter trip details → search options → compare policy-compliant results → select itinerary → submit for approval if required → receive booking confirmation → access itinerary → request changes or cancellation.
-
-**Approver journey:** Open pending request → review traveller, purpose, itinerary and policy status → approve, reject or request clarification → record decision and comments → track booking outcome.
-
-**Travel operations journey:** Monitor booking state → identify supplier or ticketing exception → investigate source response → communicate next action → resolve and record the case.
-
-## 5. Product requirements and acceptance examples
+## Product requirements — reconstructed examples
 
 | ID | Requirement | Acceptance expectation |
 |---|---|---|
-| CT-01 | Apply configurable policy rules | Search results or booking requests show the applicable policy status and reason |
-| CT-02 | Route approval requests | Requests reach the correct approver based on configured hierarchy and delegation |
-| CT-03 | Record approval decisions | Approver, timestamp, decision and comments are auditable |
-| CT-04 | Enforce role permissions | Users can only access actions and traveller data permitted by their role |
-| CT-05 | Capture cost allocation | Required entity / cost centre fields are validated before booking |
-| CT-06 | Manage post-booking changes | Change requests respect supplier terms and preserve the booking history |
-| CT-07 | Surface booking exceptions | Pending, failed or unknown supplier outcomes are not misrepresented as confirmed |
+| CT-01 | Evaluate travel policy | Each option or request displays the applicable policy outcome and reason |
+| CT-02 | Route approval requests | Requests are assigned using configured hierarchy and delegation rules |
+| CT-03 | Preserve approval history | Decision, approver, timestamp and comments are auditable |
+| CT-04 | Apply role permissions | Users can access only the traveller data and actions allowed by their role |
+| CT-05 | Capture cost allocation | Required cost centre, entity or project fields are validated |
+| CT-06 | Track booking outcome | Confirmed, failed, pending and unknown supplier outcomes remain distinct |
+| CT-07 | Manage servicing requests | Amendments and cancellations follow applicable supplier conditions and retain history |
 
-### Example acceptance criteria
+## Product ownership and delivery considerations
 
-**Given** a traveller selects an option that violates a configured policy rule, **when** the request is submitted, **then** the platform captures the applicable policy exception and routes it according to the organisation's approval configuration.
+Product and business-analysis work in this domain can include clarifying stakeholder needs, documenting policy and approval workflows, translating business rules into requirements and acceptance criteria, coordinating supplier and engineering dependencies, supporting backlog discussions, and validating delivered behaviour with QA and business stakeholders.
 
-**Given** an approver is unavailable and has a valid delegate configured, **when** an approval request is due, **then** the workflow follows the configured delegation rule and records the routing history.
+Key cross-functional dependencies include travel operations, corporate administrators, finance, engineering, QA, supplier partners and customer-facing teams. The product scope requires careful handling of exception scenarios, permissions, audit history and supplier response behaviour.
 
-**Given** a supplier response is uncertain after a booking request, **when** the traveller views the trip, **then** the platform displays a pending or unknown state and provides an appropriate next step rather than showing a false confirmation.
+## Product analytics framework
 
-## 6. Integrations and data considerations
+The following are **candidate KPIs**, not claimed measured results for this corporate travel product:
 
-- Flight content and booking providers, such as GDS, NDC or airline direct connections where supported.
-- Hotel aggregators, hotel chains and negotiated corporate rate sources.
-- Ground transport or ancillary service providers where in scope.
-- HR or identity systems for employee profile and organisational hierarchy.
-- Expense, ERP or finance systems for cost allocation and reconciliation.
-- Email, mobile or messaging channels for approvals and trip notifications.
-
-Product requirements should define traveller identity matching, policy data ownership, provider response mapping, booking references, cancellation rules, payment responsibility, reconciliation and integration failure handling.
-
-## 7. Product analytics and success measures
-
-| Metric | What it helps evaluate |
+| KPI | Definition / question |
 |---|---|
-| Online adoption rate | Proportion of eligible corporate bookings completed through the platform |
-| Policy-compliant booking rate | Whether travellers can find and book suitable compliant options |
-| Approval turnaround time | Efficiency of the approval workflow |
-| Booking completion rate | Effectiveness of search-to-confirmation journey |
-| Out-of-policy exception rate | Where policy or content may create friction |
-| Change / cancellation handling time | Operational servicing efficiency |
-| Support contact rate per trip | Clarity and reliability of the traveller journey |
-| Spend visibility / allocation completeness | Quality of finance and reporting data |
+| Policy-compliant booking rate | Share of bookings that meet configured policy |
+| Approval turnaround time | Time from request submission to decision |
+| Request-to-booking conversion | Share of travel requests that become confirmed bookings |
+| Booking completion rate | Share of booking attempts reaching a confirmed state |
+| Out-of-policy exception rate | Share of requests requiring exception approval |
+| Change / cancellation rate | Share of confirmed bookings later changed or cancelled |
+| Spend variance | Difference between actual spend and approved or planned spend |
 
-Targets and baselines should be set using approved customer and product analytics data.
+Each KPI needs an agreed event definition, denominator, time window and trusted data source before targets are set.
 
-## 8. Roadmap example
+## Key product risks and decisions
 
-- **Foundation:** company configuration, identity / roles, traveller profiles, policy rules and supplier connectivity.
-- **Core adoption:** search, trip requests, approvals, booking status and traveller itinerary.
-- **Operational maturity:** amendments, cancellations, support case management, reconciliation and reporting.
-- **Optimisation:** policy insights, proactive disruption workflows and data-led travel programme improvements.
+- Avoid treating an unconfirmed supplier response as a successful booking.
+- Define timeout, retry and reconciliation behaviour for uncertain booking outcomes.
+- Make policy explanations actionable rather than displaying only a pass/fail indicator.
+- Preserve approval and booking audit history.
+- Ensure role-based access and traveller data handling are appropriate.
+- Design operational exception queues with clear ownership and next actions.
 
-## 9. Key product risks and decisions
+## Portfolio note
 
-- Policy configuration can become difficult to maintain if rules are not transparent.
-- Approval delays can create price changes and booking friction.
-- Supplier booking and ticketing states need consistent mapping and reconciliation.
-- Corporate traveller and travel-document data require appropriate access controls and retention.
-- Policy compliance should not hide meaningful alternatives or create inaccessible workflows.
-- The product must clearly distinguish a request approval from supplier booking confirmation.
-
-## 10. Product manager focus
-
-Align travel operations, corporate administrators, finance, approvers, travellers and engineering on policy ownership, approval paths, supplier coverage, booking and ticketing states, servicing rules, reporting definitions and the balance between traveller experience and corporate control.
+This case study describes the corporate travel product domain and representative product workflows. It does not publish customer-specific policy configurations, commercial terms, internal architecture or confidential company artefacts. No separate quantified corporate-travel outcome is claimed in this document.
