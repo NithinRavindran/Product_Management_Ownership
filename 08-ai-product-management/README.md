@@ -1,3 +1,7 @@
+**PRODUCT MANAGEMENT PORTFOLIO** · [Home](../README.md) · [Technical PM](../07-technical-product-management/README.md) · [Next: Experimentation →](../09-experimentation-growth/README.md)
+
+---
+
 # AI Product Management — Learning Lab
 
 This folder contains learning notes, reusable frameworks and illustrative product artefacts for exploring AI-enabled product experiences. It is a **learning and portfolio-development area**, separate from the four professional product-domain case studies in [10-case-studies](../10-case-studies/).
