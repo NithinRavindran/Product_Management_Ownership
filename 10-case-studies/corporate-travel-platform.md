@@ -1,3 +1,12 @@
+[← All case studies](README.md) · [Portfolio home](../README.md)
+
+<div align="center">
+
+![Experience-based domain](https://img.shields.io/badge/CASE%20STUDY-01%20%7C%20CORPORATE%20TRAVEL-0f766e?style=flat-square)
+![Portfolio artefact](https://img.shields.io/badge/CLASSIFICATION-RECONSTRUCTED%20WORKFLOWS-475569?style=flat-square)
+
+</div>
+
 # Product Case Study: Corporate Travel Management Platform
 
 **Domain:** Travel technology  
