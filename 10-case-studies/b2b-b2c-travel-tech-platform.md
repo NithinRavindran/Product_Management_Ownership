@@ -1,3 +1,12 @@
+[← All case studies](README.md) · [Portfolio home](../README.md)
+
+<div align="center">
+
+![Experience-based domain](https://img.shields.io/badge/CASE%20STUDY-02%20%7C%20TRAVEL%20TECH-0f766e?style=flat-square)
+![Portfolio artefact](https://img.shields.io/badge/CLASSIFICATION-RECONSTRUCTED%20WORKFLOWS-475569?style=flat-square)
+
+</div>
+
 # Product Case Study: B2B & B2C Travel Technology Platform
 
 **Domain:** Travel technology  
