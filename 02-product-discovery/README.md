@@ -1,3 +1,7 @@
+**PRODUCT MANAGEMENT PORTFOLIO** · [Home](../README.md) · [Strategy](../01-product-strategy/README.md) · [Next: Requirements →](../03-product-requirements/README.md)
+
+---
+
 # Product Discovery & User Research
 
 Discovery reduces the risk of solving the wrong problem. The artefacts here are templates and examples; research findings must come from actual participants and evidence.
