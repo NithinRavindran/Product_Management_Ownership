@@ -1,3 +1,7 @@
+**PRODUCT MANAGEMENT PORTFOLIO** · [Home](../README.md) · [AI PM Learning Lab](../08-ai-product-management/README.md) · [Case studies →](../10-case-studies/README.md)
+
+---
+
 # Product Experimentation & Growth — Toolkit
 
 This folder contains reusable experiment-planning and analysis frameworks. They demonstrate a structured approach to testing product assumptions; they are **not evidence that a specific A/B test or growth experiment was run**.
