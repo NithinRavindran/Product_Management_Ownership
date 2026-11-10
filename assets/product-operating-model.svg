@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="470" viewBox="0 0 1400 470" role="img" aria-labelledby="title desc">
+<title id="title">Product management operating model</title>
+<desc id="desc">Five connected product practices: discover, frame strategy, define, deliver, and learn from outcomes.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1426"/><stop offset="1" stop-color="#102b3a"/></linearGradient>
+ <linearGradient id="route" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6ee7c6"/><stop offset="1" stop-color="#78aaff"/></linearGradient>
+</defs>
+<rect width="1400" height="470" rx="26" fill="url(#bg)"/>
+<text x="700" y="64" fill="#f1f7fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" text-anchor="middle">A PRACTICAL PRODUCT OPERATING MODEL</text>
+<text x="700" y="95" fill="#9eb7c9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" text-anchor="middle">Keep the user problem, product decision and delivery outcome connected</text>
+<path d="M185 225H1216" fill="none" stroke="url(#route)" stroke-width="4" stroke-linecap="round"/>
+<g fill="#0c2537" stroke="url(#route)" stroke-width="3">
+ <rect x="55" y="154" width="230" height="144" rx="18"/>
+ <rect x="330" y="154" width="230" height="144" rx="18"/>
+ <rect x="605" y="154" width="230" height="144" rx="18"/>
+ <rect x="880" y="154" width="230" height="144" rx="18"/>
+ <rect x="1155" y="154" width="190" height="144" rx="18"/>
+</g>
+<g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+ <g fill="#6ee7c6" font-size="13" font-weight="750"><text x="170" y="188">01 · DISCOVER</text><text x="445" y="188">02 · STRATEGISE</text><text x="720" y="188">03 · DEFINE</text><text x="995" y="188">04 · DELIVER</text><text x="1250" y="188">05 · LEARN</text></g>
+ <g fill="#f3f8fc" font-size="20" font-weight="700"><text x="170" y="230">User problems</text><text x="445" y="230">Product choices</text><text x="720" y="230">Requirements</text><text x="995" y="230">Team alignment</text><text x="1250" y="230">Outcomes</text></g>
+ <g fill="#a7bdce" font-size="13"><text x="170" y="260"><tspan x="170">Research · journeys</tspan><tspan x="170" dy="17">pain points · evidence</tspan></text><text x="445" y="260"><tspan x="445">Vision · priorities</tspan><tspan x="445" dy="17">trade-offs · roadmap</tspan></text><text x="720" y="260"><tspan x="720">Stories · acceptance</tspan><tspan x="720" dy="17">rules · dependencies</tspan></text><text x="995" y="260"><tspan x="995">Backlog · UAT</tspan><tspan x="995" dy="17">release readiness</tspan></text><text x="1250" y="260"><tspan x="1250">KPIs · feedback</tspan><tspan x="1250" dy="17">iteration</tspan></text></g>
+</g>
+<path d="M1250 320 C1250 390 160 390 160 320" fill="none" stroke="#6ee7c6" stroke-opacity=".5" stroke-width="2" stroke-dasharray="6 8"/>
+<path d="M152 330l8-12 8 12" fill="none" stroke="#6ee7c6" stroke-width="2"/>
+<text x="700" y="422" fill="#9eb7c9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" text-anchor="middle">A continuous loop: evidence informs decisions, delivery reveals learning, and learning reshapes priorities.</text>
+</svg>
