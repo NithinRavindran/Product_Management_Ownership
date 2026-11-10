@@ -1,45 +1,12 @@
-# Case Study: Travel Booking Platform
+# Travel Booking Platform — Overview
 
-<small>Illustrative portfolio exercise — hypotheses and sample scope only.</small>
+This page is retained as a short entry point to the broader travel technology work.
 
-## Context
-A multi-service travel platform supports users searching and booking flights, hotels and related services.
+The portfolio now separates two distinct product contexts:
 
-## Problem hypothesis
-Users may struggle to understand booking status and recover from inconsistent supplier responses across the booking journey.
+- **[Corporate Travel Platform](corporate-travel-platform.md):** managed business travel, policy controls, approvals, employee profiles, trip servicing and corporate reporting.
+- **[B2B & B2C Travel Technology Platform](b2b-b2c-travel-tech-platform.md):** multi-product travel commerce across airlines, hotels, activities, transfers and dynamic packages for agents, partners and direct customers.
 
-## Users
-- Traveller:
-- Travel arranger:
-- Operations / support agent:
+Use the relevant case study for product scope, journeys, requirements, integrations, metrics and roadmap considerations.
 
-## Discovery plan
-Review booking funnel data, support contacts, supplier error categories and interviews with travellers and operations users.
-
-## Opportunity
-Improve confidence and reduce avoidable support effort by making the booking lifecycle and exception states clear.
-
-## MVP scope
-- Consistent booking status model.
-- Clear pending / confirmed / failed states.
-- Supplier reference and last-updated timestamp where available.
-- Actionable next steps for unresolved bookings.
-- Internal operational visibility for exceptions.
-
-## Requirements
-- Never show confirmed until the relevant confirmation is received and reconciled.
-- Handle timeouts and unknown outcomes without duplicate booking actions.
-- Provide traceability for status changes.
-- Make cancellation / amendment constraints visible.
-
-## Prioritisation
-Prioritise status correctness and exception handling before cosmetic enhancements.
-
-## Success measures
-- Booking status-related support contact rate.
-- Time to resolve booking exceptions.
-- Confirmed booking completion rate.
-- Duplicate / ambiguous booking incident rate.
-
-## Open questions
-What are the highest-volume failure modes? Which supplier statuses are reliable? What service-level commitments apply?
+> These case studies are written at a generic portfolio level. Add only details, diagrams and outcomes that you are authorised to disclose and can substantiate.
