@@ -1,3 +1,7 @@
+**PRODUCT MANAGEMENT PORTFOLIO** · [Home](../README.md) · [Delivery](../06-product-delivery/README.md) · [Next: AI PM Learning Lab →](../08-ai-product-management/README.md)
+
+---
+
 # Technical Product Management
 
 This section captures the technical understanding needed to define products and collaborate effectively with engineering. It shows how technical product thinking applies across the four product domains; it is not a substitute for engineering design or specialist clinical / security review.
